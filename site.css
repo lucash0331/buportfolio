@@ -1,0 +1,78 @@
+/**
+	Title: site.css
+	Author: Lucas Hoffman
+	Date: 8/13/2021
+	Description: CSS file for WEB-330 course
+    Link to GitHub repository: https://github.com/lucash0331/web-330
+    Link to Github Landing page: https://lucash0331.github.io/web-330/
+*/
+
+
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#icon-mode:hover {
+    cursor: pointer;
+}
+
+#icon-text {
+    padding-left: 10px;
+}
+
+.pull-right {
+    float: right;
+}
+
+.icon {
+    display: block;
+    padding-bottom: 20px;
+}
+
+/** Style for assignment's pages */
+
+.assign-container {
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.assign-content {
+    width: 600px;
+    margin: 3% auto 0;
+
+    transition: 0.3s;
+}
+
+.assign-results-text {
+    text-align: center;
+    font-size: 28px;
+}
+
+.app-header {
+    text-align: center;
+    font-weight: 400;
+    border: none;
+    color: inherit;
+    background-color: inherit;
+}
+
+
+
+.form {
+    display: inline-grid;
+    grid-template-columns: auto;
+}
+
+.form-field {
+    padding: 20px;
+}
+
+.full-width {
+    width: 100%;
+}
+.distinguish {
+    font-weight: bold;
+    text-decoration: underline;
+}
